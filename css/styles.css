@@ -1,0 +1,118 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 20px 0;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+/* Style rules for navigation area */
+nav {
+	padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #000;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Style rules for main content */
+
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Style rules for footer content */
+footer {
+    padding: 10px 0;
+    background-color: #ffbb22;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0 1em;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 769px) {
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1280px) {
+    #container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
