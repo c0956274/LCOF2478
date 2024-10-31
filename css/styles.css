@@ -1,5 +1,5 @@
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, ul, p {
+body, header, nav, main, footer, img, h1, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -70,15 +70,49 @@ nav li a {
 
 main {
     background-color: #fff;
-    padding: 2%;
+    padding: 4%;
     font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-size: 1.25em;
+    color: #ffbb22;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.tel-link {
+    background-color: #ffbb22;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.hours li {
+    font-size: 0.9em;
 }
 
 /* Style rules for footer content */
 footer {
     padding: 10px 0;
     background-color: #ffbb22;
+    margin-top: 30px;
 }
 
 footer p {
@@ -86,6 +120,7 @@ footer p {
     font-size: 0.75em;
     text-align: center;
     padding: 0 1em;
+    margin: 0;
 }
 
 footer p a {
