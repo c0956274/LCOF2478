@@ -134,21 +134,23 @@ h4 {
 .product-of-the-week img {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 /* Weekly Sales */
 .weekly-sales {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 .weekly-sales .sale-item {
-    text-align: center;
+
 }
 
 .weekly-sales .sale-item img {
     width: 100px;
     height: auto;
+    margin: 0 auto;
 }
 
 /* Customer Guarantee */
