@@ -1,0 +1,58 @@
+/* Table styles */
+.training-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.training-schedule caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.training-schedule th,
+.training-schedule td {
+    border: 1px solid #c8af29;
+    padding: 10px;
+    text-align: left;
+}
+
+.training-schedule th {
+    background-color: #ffbb22;
+    font-weight: bold;
+}
+
+/* Alternate row colors */
+.training-schedule tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Highlight row on hover */
+.training-schedule tbody tr:hover {
+    background-color: #e9ec8c;
+    cursor: pointer;
+}
+
+/* Optional: Style images */
+.training-schedule td img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.table-container {
+    overflow-x: auto; /* Allows horizontal scrolling */
+    margin: 0 auto; /* Center the container */
+}
+
+.training-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+}
+

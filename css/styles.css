@@ -427,7 +427,7 @@ footer p a {
     }
 
     tr:nth-child(odd) {
-        background-color: #ccc;
+        background-color: #eadeae;
     }
     
     /* Tablet Viewport: Style rule for form element */
