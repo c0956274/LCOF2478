@@ -14,27 +14,42 @@
 </head>
 <body>
     <div id="container">
-        <header id="ffc-logo">
-            <a href="index.html">
-                <img src="images/vases-logo.png" alt="vase mirage logo" width="200" height="200">
-            </a>
-        </header>
-        
+        <!-- Mobile Nav -->
         <nav class="mobile-nav">
-            <ul id="menu-links">
-                <li><a href="index.html">Home</a></li>
-                <li> <a href="about.html">About</a></li>
-                <li><a href="team.html">Our Team</a></li>
-                <li><a href="specials.html">Specials</a></li>
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="team.html">Our Team</a>
+                <a href="specials.html">Specials</a>
+                <a href="training.html">Training</a>
+                <a href="media.html">Media</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+		<!-- Use the header area for the website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/vases-logo.png" alt="vase mirage logo" width="200" height="200"></a>
+		</header>
+
+        <!-- Tablet, Desktop Nav-->
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav class="tablet-desktop">
+			<ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="team.html">Our Team</a></li> 
+                <li><a href="specials.html">Specials</a></li> 
                 <li><a href="training.html">Training</a></li>
                 <li><a href="media.html">Media</a></li>
                 <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-            <a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div>
-			</a>
-        </nav>
+		</nav>
         
         <!-- Use the main area to add the main content to the webpage -->
         <main>
@@ -49,5 +64,8 @@
             Nikhil Saxena &nbsp; &nbsp; 78</p>
         </footer>
     </div>
+
+    <script src="/scripts/script.js"></script>
+    
 </body>
 </html>

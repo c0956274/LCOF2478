@@ -6,39 +6,66 @@
 -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <title>Vase Mirage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
-    <div id="container">
-        <header id="ffc-logo">
-            <a href="index.html">
-                <img src="images/vases-logo.png" alt="vase mirage logo" width="200" height="200">
-            </a>
-        </header>
-        
+
+	<div id="container">
+
+        <!-- Mobile Nav -->
         <nav class="mobile-nav">
-            <ul id="menu-links">
-                <li><a href="index.html">Home</a></li>
-                <li> <a href="about.html">About</a></li>
-                <li><a href="team.html">Our Team</a></li>
-                <li><a href="specials.html">Specials</a></li>
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="team.html">Our Team</a>
+                <a href="specials.html">Specials</a>
+                <a href="training.html">Training</a>
+                <a href="media.html">Media</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+		<!-- Use the header area for the website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/vases-logo.png" alt="vase mirage logo" width="200" height="200"></a>
+		</header>
+
+        <!-- Tablet, Desktop Nav-->
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav class="tablet-desktop">
+			<ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="team.html">Our Team</a></li> 
+                <li><a href="specials.html">Specials</a></li> 
                 <li><a href="training.html">Training</a></li>
                 <li><a href="media.html">Media</a></li>
                 <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-            <a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div>
-			</a>
-        </nav>
+		</nav>
         
-        <!-- Use the main area to add the main content to the webpage -->
-        <main>
-            <div id="mobile">
+        <!-- Hero Image -->
+        <div id="hero" class="tablet-desktop">
+            <img src="/images/vases-banner-img.jpg" alt="Banner image">
+        </div>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+            
+            <div class="mobile">
                 <p>Welcome to Vase Mirage - where elegance meets craftsmanship! Explore our curated collection of unique, handcrafted vases designed to complement every space. Whether you're looking for a statement piece or a timeless classic, we have the perfect vase for your home or event. Discover the beauty of artistry and find inspiration in every vase. Happy shopping!</p>
                 <h3>Visit the Store Today!</h3>
                 <p>Call Us for the Enquiries</p>
@@ -47,22 +74,44 @@
                 </p>
                 <h4>Store Opening hours:</h4>
                 <ul class="hours">
-                    <li>Mon - Thu: 6:00am - 6:00pm</li>
-                    <li>Friday: 6:00am - 4:00pm</li>
-                    <li>Saturday: 8:00am - 6:00pm</li>
-                    <li>Sunday: Closed</li>
-               </ul>
+			         <li>Mon - Thu: 6:00am - 6:00pm</li>
+			         <li>Friday: 6:00am - 4:00pm</li>
+			         <li>Saturday: 8:00am - 6:00pm</li>
+			         <li>Sunday: Closed</li>
+                </ul>
+            
             </div>
-        </main>
-        
-        <footer>
+            
+            <div class="tablet-desktop">
+		
+                <p>Welcome to Vase Mirage - where elegance meets craftsmanship! Explore our curated collection of unique, handcrafted vases designed to complement every space. Whether you're looking for a statement piece or a timeless classic, we have the perfect vase for your home or event. Discover the beauty of artistry and find inspiration in every vase. <span class="action">Happy Shopping!</span></p> 
+
+                <p>At Vase Mirage, we take pride in delivering exceptional quality with every vase. Each piece is meticulously handcrafted by skilled artisans who pour their passion into every curve, detail, and finish. Our vases are not just decorative items; they are works of art that tell a story and add a personal touch to your space. From minimalist designs to intricate patterns, our collection is made to stand the test of time and elevate your decor with unparalleled sophistication.</p> 
+
+                <p>Our vases are more than just containers; they are the essence of beauty and functionality combined. Whether you want to create a centerpiece for your dining table, add a splash of color to your living room, or design an unforgettable event, Vase Mirage has you covered. Choose from a wide range of shapes, sizes, and styles to suit your vision. With Vase Mirage, every space becomes a canvas for creativity, bringing elegance and charm to your surroundings like never before.</p> 
+                
+            </div>
+            
+            <div class="grid">
+                <figure class="frame">
+                        <a href="contact.html"><img src="/images/delivery-img.png" alt="Contact"></a>
+                        <figcaption class="pic-text">Buy Today</figcaption>
+                </figure>
+            
+            </div>
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
             <p>&copy; Copyright 2099. All Rights Reserved.
             <br>
             <a href="mailto:info@vasemirage.com">Request information</a>
             <br>
             Nikhil Saxena &nbsp; &nbsp; 78</p>
         </footer>
-    </div>
+	
+	</div>
 
     <script src="/scripts/script.js"></script>
 
