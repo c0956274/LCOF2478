@@ -19,8 +19,6 @@ img {
 }
 
 header {
-    position: sticky;
-    top: 0;
     background: #fff;
     padding: 20px 0;
 }
@@ -41,7 +39,6 @@ nav ul {
 }
 
 nav li {
-    font-size: 1.5em;
     font-family: 'Francois One', sans-serif;
     border-top: 1px solid #000;
 }
@@ -57,12 +54,31 @@ nav li a {
     text-decoration: none;
 }
 
+/* Style rules for hamburger menu */
+.mobile-nav a {
+    color: #ffbb22;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
 /* Show mobile class, hide tablet-desktop class */
 .mobile {
     display: block;
 }
 
-.tablet-desktop {
+.tablet-desktop, #menu-links {
     display: none;
 }
 

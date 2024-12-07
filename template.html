@@ -14,14 +14,14 @@
 </head>
 <body>
     <div id="container">
-        <header>
+        <header id="ffc-logo">
             <a href="index.html">
                 <img src="images/vases-logo.png" alt="vase mirage logo" width="200" height="200">
             </a>
         </header>
         
-        <nav>
-            <ul>
+        <nav class="mobile-nav">
+            <ul id="menu-links">
                 <li><a href="index.html">Home</a></li>
                 <li> <a href="about.html">About</a></li>
                 <li><a href="team.html">Our Team</a></li>
@@ -31,6 +31,9 @@
                 <li><a href="faqs.html">FAQs</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
         </nav>
         
         <!-- Use the main area to add the main content to the webpage -->
